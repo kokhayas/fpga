@@ -1,0 +1,40 @@
+
+State Machine - |a09_bintobcd3|change
+Name change.1001 change.1000 change.0111 change.0110 change.0101 change.0100 change.0011 change.0010 change.0001 change.0000 
+change.0000 0 0 0 0 0 0 0 0 0 0 
+change.0001 0 0 0 0 0 0 0 0 1 1 
+change.0010 0 0 0 0 0 0 0 1 0 1 
+change.0011 0 0 0 0 0 0 1 0 0 1 
+change.0100 0 0 0 0 0 1 0 0 0 1 
+change.0101 0 0 0 0 1 0 0 0 0 1 
+change.0110 0 0 0 1 0 0 0 0 0 1 
+change.0111 0 0 1 0 0 0 0 0 0 1 
+change.1000 0 1 0 0 0 0 0 0 0 1 
+change.1001 1 0 0 0 0 0 0 0 0 1 
+
+State Machine - |a09_bintobcd3|status_next
+Name status_next.TURN1L status_next.WIN1 status_next.WIN0 status_next.TURN1R status_next.TURN0L status_next.TURN0R status_next.IDLE 
+status_next.IDLE 0 0 0 0 0 0 0 
+status_next.TURN0R 0 0 0 0 0 1 1 
+status_next.TURN0L 0 0 0 0 1 0 1 
+status_next.TURN1R 0 0 0 1 0 0 1 
+status_next.WIN0 0 0 1 0 0 0 1 
+status_next.WIN1 0 1 0 0 0 0 1 
+status_next.TURN1L 1 0 0 0 0 0 1 
+
+State Machine - |a09_bintobcd3|flagwin
+Name flagwin.1010 flagwin.0000 flagwin.1011 
+flagwin.0000 0 0 0 
+flagwin.1010 1 1 0 
+flagwin.1011 0 1 1 
+
+State Machine - |a09_bintobcd3|status
+Name status.TURN1L status.WIN1 status.WIN0 status.IDLE status.TURN1R status.TURN0L status.TURN0R status.INIT 
+status.INIT 0 0 0 0 0 0 0 0 
+status.TURN0R 0 0 0 0 0 0 1 1 
+status.TURN0L 0 0 0 0 0 1 0 1 
+status.TURN1R 0 0 0 0 1 0 0 1 
+status.IDLE 0 0 0 1 0 0 0 1 
+status.WIN0 0 0 1 0 0 0 0 1 
+status.WIN1 0 1 0 0 0 0 0 1 
+status.TURN1L 1 0 0 0 0 0 0 1 

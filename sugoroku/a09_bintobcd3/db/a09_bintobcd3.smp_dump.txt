@@ -1,0 +1,28 @@
+
+State Machine - |a09_bintobcd3|change
+Name change.101 change.100 change.011 change.010 change.001 change.000 
+change.000 0 0 0 0 0 0 
+change.001 0 0 0 0 1 1 
+change.010 0 0 0 1 0 1 
+change.011 0 0 1 0 0 1 
+change.100 0 1 0 0 0 1 
+change.101 1 0 0 0 0 1 
+
+State Machine - |a09_bintobcd3|status_next
+Name status_next.WIN1 status_next.WIN0 status_next.ADD1 status_next.ADD0 status_next.SEG7 status_next.IDLE 
+status_next.IDLE 0 0 0 0 0 0 
+status_next.SEG7 0 0 0 0 1 1 
+status_next.ADD0 0 0 0 1 0 1 
+status_next.ADD1 0 0 1 0 0 1 
+status_next.WIN0 0 1 0 0 0 1 
+status_next.WIN1 1 0 0 0 0 1 
+
+State Machine - |a09_bintobcd3|status
+Name status.WIN1 status.WIN0 status.IDLE status.ADD1 status.ADD0 status.SEG7 status.INIT 
+status.INIT 0 0 0 0 0 0 0 
+status.SEG7 0 0 0 0 0 1 1 
+status.ADD0 0 0 0 0 1 0 1 
+status.ADD1 0 0 0 1 0 0 1 
+status.IDLE 0 0 1 0 0 0 1 
+status.WIN0 0 1 0 0 0 0 1 
+status.WIN1 1 0 0 0 0 0 1 

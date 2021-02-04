@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at a09_bintobcd3.v(59): always construct contains both blocking and non-blocking assignments File: C:/Users/user3/Desktop/a09_bintobcd3/a09_bintobcd3.v Line: 59
+Warning (10268): Verilog HDL information at a09_bintobcd3.v(153): always construct contains both blocking and non-blocking assignments File: C:/Users/user3/Desktop/a09_bintobcd3/a09_bintobcd3.v Line: 153

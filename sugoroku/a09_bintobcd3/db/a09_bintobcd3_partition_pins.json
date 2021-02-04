@@ -1,0 +1,105 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "SEG7OUT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG7OUT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG7OUT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG7OUT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG7OUT[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG7OUT[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG7OUT[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG7COM[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG7COM[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SEG7COM[2]",
+					"strict" : false
+				},
+				{
+					"name" : "led[0]",
+					"strict" : false
+				},
+				{
+					"name" : "led[1]",
+					"strict" : false
+				},
+				{
+					"name" : "led[2]",
+					"strict" : false
+				},
+				{
+					"name" : "led[3]",
+					"strict" : false
+				},
+				{
+					"name" : "led[4]",
+					"strict" : false
+				},
+				{
+					"name" : "led[5]",
+					"strict" : false
+				},
+				{
+					"name" : "led[6]",
+					"strict" : false
+				},
+				{
+					"name" : "led[7]",
+					"strict" : false
+				},
+				{
+					"name" : "led[8]",
+					"strict" : false
+				},
+				{
+					"name" : "led[9]",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "RSTn",
+					"strict" : false
+				},
+				{
+					"name" : "PUSH0",
+					"strict" : false
+				},
+				{
+					"name" : "PUSH1",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
